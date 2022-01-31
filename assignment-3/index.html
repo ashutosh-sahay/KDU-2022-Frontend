@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnHover Profile</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="left-panel">
+            <img src="./svg/twitter-svgrepo-com.svg" width="15%" height="10%">
+            <button class="left-btns"> <img src="./svg/home-svgrepo-com.svg" alt="home" class="left-svg"> Home </button>
+            <button class="left-btns"> <img src="./svg/hash-svgrepo-com.svg" alt="explore" class="left-svg"> Explore </button>
+            <button class="left-btns"> <img src="./svg/notifications-svgrepo-com.svg" alt="notificactions" class="left-svg"> Notifications </button>
+            <button class="left-btns"> <img src="./svg/messages-svgrepo-com.svg" alt="messages" class="left-svg"> Messages </button>
+            <button class="left-btns"> <img src="./svg/bookmarks-svgrepo-com.svg" alt="bookmarks" class="left-svg"> Bookmarks </button>
+            <button class="left-btns"> <img src="./svg/list-svgrepo-com.svg" alt="lists" class="left-svg"> Lists </button>
+            <button class="left-btns"> <img src="./svg/profile-svgrepo-com.svg" alt="profile" class="left-svg"> Profile </button>
+            <button class="left-btns"> <img src="./svg/more-svgrepo-com.svg" alt="more" class="left-svg"> More </button>
+            <button class="left-btns">  Tweet </button>
+        </div>
+        
+        <div id="mid-panel">
+            <div id="home-title"><h2>Home</h2></div>
+
+            <div id="post-Tweet">
+                <div style="display: flex; flex-direction: row;align-items: center;">
+                    <img id="user-dp-img" src="./Ashutosh_Sahay.jpeg">
+                    <input type="text" id="post-Tweet-inp-box" placeholder="What's Happening?">
+                </div>
+                <div id="svg-container">
+                    <img class="post-svg" src='./svg/image-svgrepo-com.svg'>
+                    <img class="post-svg" src='./svg/gif-svgrepo-com.svg'>
+                    <img class="post-svg" src='./svg/poll-svgrepo-com.svg'>
+                    <img class="post-svg" src='./svg/smiley-svgrepo-com.svg'>
+                    <img class="post-svg" src='./svg/schedule-svgrepo-com.svg'>
+                    <img class="post-svg" src='./svg/location-svgrepo-com.svg'>
+                    <button id="post-btn">Tweet</button>
+                </div>
+            </div>
+
+            <div id="feed-tweets">
+                <b>YOUR FEED</b>
+                <div id="feed-tweets-list">
+                   <div id="tweet-item">
+                        <div class="popUp">
+                            <img id="feed-dp" src="./Spiderman.png" >
+                            <span id="feed-name"><b>Spiderman</b></span> 
+                            <span id="feed-handle">@spiderman </span> 
+                            <span> . 35m</span>
+                            <div id="popUp-profile"></div>
+                        </div>  
+                        <div class="tweet-content">
+                            <span style="margin-left: 6vw;">
+                            Hi my name is Spiderman.
+                            This is my 1st tweet. 
+                            #firstTweet #avenger 
+                            </span>
+                        </div> 
+                   </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="right-panel">
+            <div id="whats-happening">
+                <h2>What's Happening</h2>
+                <div class="whpn">
+                    US official says Russian troop presence is a danger but Ukraine warns of causing 'panic' with rhetoric
+                </div>
+                <div class="whpn">
+                    Trending : <b>#AttackOnTitanS4</b>
+                </div>
+                <div class="whpn">
+                    COVID-19 restrictions in place for campaigning for the upcoming Assembly polls
+                </div>
+            </div>
+            <div id="whoToFollow">
+                <h2>Who To Follow</h2>
+                <div class="wtflw"><b>Thor</b>@Thor <button id="post-btn">Follow</button> </div>
+                <div class="wtflw"><b>Hulk</b>@hulk <button id="post-btn">Follow</button> </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./script.js" defer></script>
+
+</body>
+</html>
+
+
+
